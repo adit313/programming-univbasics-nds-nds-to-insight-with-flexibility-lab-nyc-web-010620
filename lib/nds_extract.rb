@@ -74,12 +74,11 @@ def gross_per_studio(collection)
   pp collection
   
   temp = []
-  i=0
+  j=0
   
-   while collection[i] do
-    temp[collection[i][:studio]] = 0 unless temp[collection[i][:studio]]
-    temp[collection[i][:studio]] += temp[collection[i][:worldwide_gross]]
-    i+=1
+   while collection[j] do
+    temp << [collection[j][:studio], [collection[j][:worldwide_gross]]
+    j+=1
   end
  
  pp temp
