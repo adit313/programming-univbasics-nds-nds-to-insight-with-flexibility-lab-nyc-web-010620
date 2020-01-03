@@ -73,7 +73,7 @@ def gross_per_studio(collection)
   
   pp collection
   
-  temp = {}
+  temp = []
   i=0
   
    while collection[i] do
