@@ -82,7 +82,7 @@ def gross_per_studio(collection)
   
   i=0
     while temp[i] do
-    result{temp[i][0] => 0}
+    result[temp[i][0]] = 0
     i+=1
   end
   
