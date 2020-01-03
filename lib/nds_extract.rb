@@ -77,7 +77,7 @@ def gross_per_studio(collection)
   j=0
   
    while collection[j] do
-    temp << [collection[j][:studio], [collection[j][:worldwide_gross]]
+    temp << [collection[j][:studio], collection[j][:worldwide_gross]]
     j+=1
   end
  
